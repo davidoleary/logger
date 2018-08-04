@@ -1,0 +1,11 @@
+{
+  "extends": "eslint-config-mf",
+  "import/no-extraneous-dependencies": ["error", {
+    "devDependencies": [
+      "*.spec.js"
+    ]
+  }],
+  "env": {
+    "mocha": true
+  }
+}
